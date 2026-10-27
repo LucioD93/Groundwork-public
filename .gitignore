@@ -1,0 +1,8 @@
+.build/
+.swiftpm/
+DerivedData/
+output/
+*.xcuserstate
+xcuserdata/
+.DS_Store
+PROJECT_CONVERSATION.md

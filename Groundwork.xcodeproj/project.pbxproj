@@ -1,0 +1,243 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A00000000000000000000044 /* RecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000045 /* RecipeView.swift */; };
+		A00000000000000000000042 /* CoffeeEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000043 /* CoffeeEditor.swift */; };
+		A00000000000000000000040 /* BrewViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000041 /* BrewViews.swift */; };
+		A00000000000000000000027 /* AppIcon.icon in Resources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000028 /* AppIcon.icon */; };
+		A00000000000000000000025 /* JournalTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000026 /* JournalTheme.swift */; };
+		A00000000000000000000023 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000024 /* Assets.xcassets */; };
+		A0000000000000000000000B /* App/GroundworkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000006 /* App/GroundworkApp.swift */; };
+		A00000000000000000000022 /* GroundsCore in Frameworks */ = {isa = PBXBuildFile; productRef = A00000000000000000000021 /* GroundsCore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A00000000000000000000045 /* RecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/RecipeView.swift; sourceTree = "<group>"; };
+		A00000000000000000000043 /* CoffeeEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/CoffeeEditor.swift; sourceTree = "<group>"; };
+		A00000000000000000000041 /* BrewViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/BrewViews.swift; sourceTree = "<group>"; };
+		A00000000000000000000028 /* AppIcon.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.iconcomposer; path = App/AppIcon.icon; sourceTree = "<group>"; };
+		A00000000000000000000026 /* JournalTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/JournalTheme.swift; sourceTree = "<group>"; };
+		A00000000000000000000024 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = App/Assets.xcassets; sourceTree = "<group>"; };
+		A00000000000000000000006 /* App/GroundworkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/GroundworkApp.swift; sourceTree = "<group>"; };
+		A00000000000000000000007 /* Groundwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Groundwork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A00000000000000000000009 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00000000000000000000022 /* GroundsCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A00000000000000000000003 = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000045 /* RecipeView.swift */,
+				A00000000000000000000043 /* CoffeeEditor.swift */,
+				A00000000000000000000041 /* BrewViews.swift */,
+				A00000000000000000000028 /* AppIcon.icon */,
+				A00000000000000000000026 /* JournalTheme.swift */,
+				A00000000000000000000006 /* App/GroundworkApp.swift */,
+				A00000000000000000000004 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A00000000000000000000004 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000007 /* Groundwork.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A00000000000000000000005 /* Groundwork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00000000000000000000012 /* Build configuration list for PBXNativeTarget "Groundwork" */;
+			buildPhases = (
+				A00000000000000000000008 /* Sources */,
+				A00000000000000000000009 /* Frameworks */,
+				A0000000000000000000000A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Groundwork;
+			packageProductDependencies = (
+				A00000000000000000000021 /* GroundsCore */,
+			);
+			productName = Groundwork;
+			productReference = A00000000000000000000007 /* Groundwork.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A00000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = A00000000000000000000002 /* Build configuration list for PBXProject "Groundwork" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A00000000000000000000003;
+			packageReferences = (
+				A00000000000000000000020 /* XCLocalSwiftPackageReference "." */,
+			);
+			productRefGroup = A00000000000000000000004 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A00000000000000000000005 /* Groundwork */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0000000000000000000000A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00000000000000000000027 /* AppIcon.icon in Resources */,
+				A00000000000000000000023 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A00000000000000000000008 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00000000000000000000025 /* JournalTheme.swift in Sources */,
+				A00000000000000000000044 /* RecipeView.swift in Sources */,
+				A00000000000000000000042 /* CoffeeEditor.swift in Sources */,
+				A00000000000000000000040 /* BrewViews.swift in Sources */,
+				A0000000000000000000000B /* App/GroundworkApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A00000000000000000000010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A00000000000000000000011 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		A00000000000000000000013 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Groundwork";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Take coffee photos to save in your journal and use for label details and recipes.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dailygrounds.journal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A00000000000000000000014 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Groundwork";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Take coffee photos to save in your journal and use for label details and recipes.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dailygrounds.journal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A00000000000000000000002 /* Build configuration list for PBXProject "Groundwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00000000000000000000010 /* Debug */,
+				A00000000000000000000011 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A00000000000000000000012 /* Build configuration list for PBXNativeTarget "Groundwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00000000000000000000013 /* Debug */,
+				A00000000000000000000014 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		A00000000000000000000020 /* XCLocalSwiftPackageReference "." */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = .;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A00000000000000000000021 /* GroundsCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A00000000000000000000020 /* XCLocalSwiftPackageReference "." */;
+			productName = GroundsCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A00000000000000000000001 /* Project object */;
+}

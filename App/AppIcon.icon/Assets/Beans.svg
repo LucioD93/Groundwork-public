@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <g fill="#5d3d30" fill-rule="evenodd">
+    <path transform="translate(239 646) rotate(40)" d="M0 -78 C75 -78 75 78 0 78 C-75 78 -75 -78 0 -78 Z M-11 -65 C26 -25 -25 26 9 65 C-35 26 16 -25 -11 -65 Z"/>
+    <path transform="translate(219 792) rotate(-51)" d="M0 -78 C75 -78 75 78 0 78 C-75 78 -75 -78 0 -78 Z M-11 -65 C26 -25 -25 26 9 65 C-35 26 16 -25 -11 -65 Z"/>
+    <path transform="translate(377 783) rotate(-51)" d="M0 -78 C75 -78 75 78 0 78 C-75 78 -75 -78 0 -78 Z M-11 -65 C26 -25 -25 26 9 65 C-35 26 16 -25 -11 -65 Z"/>
+  </g>
+</svg>
